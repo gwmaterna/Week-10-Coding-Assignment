@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        body {
+            background-color: rgb(37, 37, 52);
+            border-style: solid;
+            border-color: black;
+            border-radius: 50px;
+        }
+        p {
+           color:bisque
+        }
+        h2 {
+            color:bisque;
+            text-align: center;
+            font-weight: bold;
+        }
+        h6 {
+            color:bisque;
+            font-family: serif; 
+            font-style: italic;
+
+        }
+
+        #p2 {
+            background-color: black;
+            padding: 20px;
+            border: 5px solid rgb(70, 68, 68);
+        }
+        
+        img {
+            border: 5px solid rgb(70, 68, 68);
+        }    
+
+        .card {
+            border: 5px solid rgb(54, 52, 52);
+        }
+    </style>
+
+</head>
+<body class="container"><br>
+
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <p>
+            <h2>Your Favorite Video Game!</h2>
+            </p>
+        </div>
+        <div class="col-sm-3"></div>
+    </div><br><br>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <img src="game.menagerie.jpg" alt="menagerie" width="250" class="img-responsive rounded">
+        </div>
+        <div class="col-sm-6">
+            <p class="text-center" id="p2">Greetings everybody! I am compiling a list of the best video games of all
+                time, but I
+                need YOUR help! I want to know what games you love. Not what games you think are good,
+                not what games you really like, but what game you LOVE! I want to know what your favorite
+                game of all-time is and why. So please feel free to add to the list down below with
+                the game you cannot live without and why it is so important to you. It can be a game
+                that just released this year like Elden Ring or one that is as old as Pong. I welcome
+                any and all of your thoughts and opinions. Thank you so much for your participation!
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <img src="games2.jpeg" alt="headset controller" width="250" class="img-responsive rounded">
+        </div>
+    </div><br><br>
+    <div class="row">
+        <div class="col-sm-2"><br>
+                
+            <h6 class="text-center">Enter the game you love here, and in the table that pops up below please enter your name and why you
+                love it.</h6>
+        </div>
+        <div class="col-sm-9">
+            <div class="card">
+                <div class="card-body">
+
+                    <!-- <div class="row"> -->
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-game-name">Your Favorite Game</label>
+                            <input type="text" class="form-control mb-3" id="new-game-name">
+                        </div>
+                    </div>
+                    <!-- </div><br> -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-6">
+                                <button id="new-game" class="btn btn-info form-control">Submit</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><br>
+        </div>
+    </div><br>
+    <div id="games">
+        .btn.btn-primary
+    </div><br>
+
+    <script src="w10coding.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
